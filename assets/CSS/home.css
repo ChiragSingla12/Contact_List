@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+    /* background-color: blue; */
+}
+
+#page-heading{
+        text-align: center;
+        color: grey;
+        margin-top: 25px;
+}
+
+#contacts-list-container{
+    padding: 0;
+}
+
+.contact{
+    padding:3px 10px;
+    border: 1px solid white;
+    background-color: rgb(149, 149, 246);
+    color: white;
+    display: flex;
+}
+
+.contact .details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
